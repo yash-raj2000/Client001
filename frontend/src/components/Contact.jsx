@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 function Contact() {
   const handleClick = () => {
-    window.open("http://localhost:3000/getintouch", "_self");
+    window.open("https://anandraaz.netlify.app/getintouch", "_self");
   };
 
   return (
