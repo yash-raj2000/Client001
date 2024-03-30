@@ -1,0 +1,755 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 10vh;
+  bottom: 0;
+  position: sticky;
+  background-color: rgb(232, 228, 228);
+}
+
+navbar {
+  display: none;
+}
+
+.navdown {
+  display: none;
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+  margin-left: 2rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.image {
+  height: 4rem;
+  width: 5rem;
+}
+
+.right {
+  float: right;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+  height: 7vh;
+}
+
+.li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+}
+
+/* home section css */
+
+.home {
+  width: 100vw;
+  height: 81vh;
+  display: flex;
+}
+
+.home > img {
+  float: right;
+  margin-left: 2rem;
+  width: 45vw;
+  height: 82vh;
+}
+
+.text-home {
+  width: 45vw;
+  height: 82vh;
+}
+
+.h1-home {
+  color: "black";
+  width: "38vw";
+  margin-left: "8rem";
+}
+
+.h1-home2 {
+  width: "40vw";
+  margin-left: "8rem";
+}
+
+/* Contact Section Starts Here */
+
+.container {
+  width: 100vw;
+  height: 88.5vh;
+  background-color: #40e1ed;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+.section {
+  margin: 0 3rem 2rem 4rem;
+  padding: 0rem;
+  width: 90vw;
+  height: 38rem;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  color: brown;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+}
+
+/* Contact Section CSS Starts Here */
+
+.sub-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.sec-left {
+  height: 60vh;
+  width: 40vw;
+}
+
+.sec-right {
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan {
+  color: black;
+  font-size: 3.5rem;
+  margin-top: 6rem;
+}
+
+.btn-contact {
+  height: 3rem;
+  width: 8rem;
+  margin: 0rem 2rem 2rem 0rem;
+  background: transparent;
+  transition: all 0.5s;
+}
+
+.btn-contact:hover {
+  color: whitesmoke;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.btn-contact span {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-contact span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-contact:hover span {
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.btn-contact:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.box {
+  height: 3rem;
+  width: 10rem;
+  margin: 0 1rem 1rem 1rem;
+  display: flex;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: auto 5px auto;
+}
+
+.text-cont {
+  text-align: center;
+  margin: auto auto auto 0;
+}
+
+.text-cont:hover {
+  background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+  color: whitesmoke;
+  line-height: 1.5rem;
+  border: 1px solid black;
+}
+
+.text-cont > a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-a:hover {
+  color: whitesmoke;
+}
+
+/* FORM SECTION */
+
+.container {
+  width: 100vw;
+  height: 88.5vh;
+  display: flex;
+}
+
+.form-container {
+  margin: auto auto auto 4rem;
+  width: 50vw;
+  height: 70vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  margin: 20px;
+  border: 2px solid black;
+  width: 40rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+form > textarea {
+  margin: 20px;
+  width: 40rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn-form {
+  height: 3rem;
+  width: 8rem;
+  margin: 0.5rem 2rem 2rem 1.4rem;
+  background: transparent;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn-form:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.text {
+  width: 25vw;
+  height: 60vh;
+  margin: 4rem auto auto auto;
+}
+
+.container-faq {
+  margin: auto;
+  width: 90vw;
+}
+
+.container-faq > p {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Services section css */
+
+.container-services {
+  width: 90vw;
+  height: 100vh;
+  margin: 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2rem;
+  background-color: #40e1ed;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+
+.boxes {
+  border: 5px solid black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  background-color: #ffffff79;
+  box-shadow: 10px 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-serv {
+  margin-left: 2rem;
+}
+
+footer {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1rem;
+}
+
+/* RESPONSIVE DESIGN STARTS HERE */
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* HOME SECTION STARTS */
+
+  .home {
+    overflow-x: hidden;
+    margin-top: 0;
+    flex-direction: column;
+    height: 52rem;
+  }
+
+  .home > img {
+    width: 100vw;
+    height: 22rem;
+    margin-top: -2rem;
+    margin-left: 0.5rem;
+    mask-image: none;
+  }
+
+  .text-home {
+    margin-top: 2rem;
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .h1-home {
+    color: black;
+    line-height: 3rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .h1-home2 {
+    width: 100vw;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  /* NAVBAR AND ABOUT SECTION STARTS */
+  nav {
+    display: none;
+  }
+
+  navbar {
+    display: block;
+    height: 3.5rem;
+    width: 100vw;
+  }
+
+  .navdown {
+    display: block;
+    width: 100vw;
+    height: 12rem;
+  }
+
+  .container-abt {
+    width: 100vw;
+    height: 60rem;
+    display: flex;
+    background: #fff;
+  }
+
+  .left {
+    margin-left: 1rem;
+  }
+
+  .right {
+    margin-right: 1rem;
+  }
+  .image {
+    height: 3rem;
+    width: 4rem;
+  }
+
+  .li-res {
+    list-style: none;
+    padding: 5px;
+  }
+
+  .section {
+    height: 60rem;
+    width: 95vw;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  /* SERVICES STARTS HERE */
+
+  .container-services {
+    width: 85vw;
+    height: 142rem;
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .boxes {
+    height: 7rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .h1-serv {
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 2rem;
+    display: inline-block;
+    background-color: aliceblue;
+  }
+  /* 
+  CONATCT SECTION STARTS HERE */
+
+  .container-cont {
+    height: 65rem;
+    margin-top: -1rem;
+  }
+
+  .sec-cont {
+    height: 55rem;
+    margin: 0;
+  }
+
+  .sub-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .sec-left {
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .slogan {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+  }
+
+  .btn-contact {
+    margin-left: 1rem;
+  }
+
+  .sec-right {
+    margin-left: 2rem;
+  }
+
+  /* FORM SECTION */
+
+  .cont-form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 2rem;
+    width: 80vw;
+    height: 35rem;
+  }
+
+  form > input {
+    width: 20rem;
+  }
+
+  form > textarea {
+    width: 20rem;
+  }
+
+  .text {
+    width: 20rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .home {
+    overflow-x: hidden;
+    margin-top: 0;
+    flex-direction: column;
+    height: 52rem;
+  }
+
+  .home > img {
+    width: 80vw;
+    height: 22rem;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+    mask-image: none;
+  }
+
+  .text-home {
+    margin-top: 2rem;
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .h1-home {
+    color: black;
+    line-height: 3rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .h1-home2 {
+    width: 100vw;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  /* ABOUT & NAV */
+
+  nav {
+    display: none;
+  }
+
+  navbar {
+    display: block;
+    height: 3.5rem;
+    width: 100vw;
+  }
+
+  .navdown {
+    display: block;
+    width: 100vw;
+    height: 12rem;
+  }
+
+  .container-abt {
+    width: 100vw;
+    height: 40rem;
+    display: flex;
+    background: #fff;
+  }
+
+  .left {
+    margin-left: 1rem;
+  }
+
+  .right {
+    margin-right: 1rem;
+  }
+  .image {
+    height: 3rem;
+    width: 4rem;
+  }
+
+  .li-res {
+    list-style: none;
+    padding: 5px;
+  }
+
+  .section {
+    height: 40rem;
+    width: 95vw;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  /* SERVICES SECTION */
+
+  .container-services {
+    width: 91.5vw;
+    height: 85rem;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .boxes {
+    height: 7rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .h1-serv {
+    font-size: 2rem;
+    margin: 2rem 1rem 1rem 2rem;
+    display: inline-block;
+    background-color: aliceblue;
+  }
+
+  /* CONTACT SECTION */
+
+  .container-cont {
+    height: 65rem;
+    margin-top: 1rem;
+  }
+
+  .sec-cont {
+    height: 65rem;
+    margin: 2rem;
+  }
+
+  .sub-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .sec-left {
+    width: 100vw;
+    height: 30rem;
+  }
+
+  .slogan {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+  }
+
+  .btn-contact {
+    margin-left: 1rem;
+  }
+
+  .sec-right {
+    margin-top: 0;
+    margin-left: -1rem;
+  }
+
+  /* FORM SECTION */
+
+  .cont-form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 2rem;
+    width: 80vw;
+    height: 35rem;
+  }
+
+  form > input {
+    width: 40rem;
+  }
+
+  form > textarea {
+    width: 40rem;
+  }
+
+  .text {
+    width: 40rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .home {
+    height: 50rem;
+  }
+
+  .section {
+    height: 45rem;
+  }
+
+  .container-services {
+    height: 50rem;
+  }
+
+  .container-cont {
+    height: 50rem;
+  }
+
+  .sec-right {
+    margin-top: 13rem;
+  }
+
+  /* FORM SECTION */
+
+  .cont-form {
+    height: 45rem;
+  }
+  .form-container {
+    width: 45vw;
+    margin: 4rem auto auto 4rem;
+  }
+
+  form > input {
+    width: 30rem;
+  }
+
+  form > textarea {
+    width: 30rem;
+  }
+
+  .text > h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}
