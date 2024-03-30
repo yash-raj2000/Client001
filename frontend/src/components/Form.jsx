@@ -19,7 +19,7 @@ function GetInTouch() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4000/send",
+        "https://client001-anand.onrender.com/send",
         formData,
         { rejectUnauthorized: false }
       );
