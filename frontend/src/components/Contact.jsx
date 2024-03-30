@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -8,8 +9,10 @@ import CallIcon from "@mui/icons-material/Call";
 import Footer from "./Footer";
 
 function Contact() {
+  const navigate = useNavigate();
+
   const handleClick = () => {
-    window.open("https://anandraaz.netlify.app/getintouch", "_self");
+    navigate("/getintouch");
   };
 
   return (
