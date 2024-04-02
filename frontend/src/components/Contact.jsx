@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import CallIcon from "@mui/icons-material/Call";
 import Footer from "./Footer";
 
@@ -22,7 +22,7 @@ function Contact() {
         <div className="section sec-cont">
           <div className="sub-section">
             <div className="sec-left">
-              <h1 className="slogan">
+              <h1 className="slogan slogan-res">
                 Streamlining Taxes, Empowering Businesses – Connect with Us for
                 Hassle-Free Filing! <br />
                 Contact Now:
@@ -50,7 +50,12 @@ function Contact() {
                   <FacebookIcon />
                 </div>
                 <div className="text-cont">
-                  <a className="text-a" href="www.facebook.com">
+                  <a
+                    className="text-a"
+                    href="https://www.facebook.com/profile.php?id=100006414220294"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     FACEBOOK
                   </a>
                 </div>
@@ -69,11 +74,11 @@ function Contact() {
               </div>
               <div className="box">
                 <div className="icon">
-                  <InstagramIcon />
+                  <TwitterIcon />
                 </div>
                 <div className="text-cont">
-                  <a className="text-a" href="www.instagram.com">
-                    INSTAGRAM
+                  <a className="text-a" href="www.twitter.com">
+                    TWITTER [X]
                   </a>
                 </div>
               </div>

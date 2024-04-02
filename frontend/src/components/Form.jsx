@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import axios from "axios";
-import Footer from "./Footer";
 
 function GetInTouch() {
   const [formData, setFormData] = useState({
@@ -97,7 +96,6 @@ function GetInTouch() {
           </h1>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

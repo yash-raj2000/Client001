@@ -62,31 +62,126 @@ navbar {
 
 .home {
   width: 100vw;
-  height: 81vh;
+  height: 100rem;
+}
+
+.sec-one {
+  height: 35rem;
+  width: 95vw;
+  margin: 2rem;
   display: flex;
 }
 
-.home > img {
-  float: right;
-  margin-left: 2rem;
-  width: 45vw;
-  height: 82vh;
+.box-one {
+  width: 50rem;
+  height: 32rem;
+  margin: 1rem;
 }
 
-.text-home {
-  width: 45vw;
-  height: 82vh;
+.box-one > img {
+  width: 45rem;
+  height: 30rem;
+  border-radius: 7px;
 }
 
-.h1-home {
-  color: "black";
-  width: "38vw";
-  margin-left: "8rem";
+.box-one > h1 {
+  color: black;
 }
 
-.h1-home2 {
-  width: "40vw";
-  margin-left: "8rem";
+.sec-two {
+  height: 40rem;
+  width: 95vw;
+  margin: 2rem;
+  display: flex;
+}
+
+.box-two {
+  width: 50rem;
+  height: 40rem;
+  margin: 1rem;
+}
+
+.box-two > img {
+  width: 45rem;
+  height: 36rem;
+  border-radius: 7px;
+}
+
+.rows {
+  height: 16rem;
+  width: 35rem;
+  margin: 2rem;
+  display: flex;
+}
+
+.cols {
+  width: 18rem;
+  height: 15rem;
+  margin: 1rem;
+  text-align: center;
+  background: rgb(185, 222, 236);
+  border-radius: 8px;
+}
+
+.cols > h1 {
+  font-size: 20px;
+}
+.cols > p {
+  font-size: 15px;
+  margin: 10px;
+}
+
+.sec-three {
+  width: 95vw;
+  height: 17rem;
+  margin-top: 3rem;
+}
+
+.cont-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(247, 225, 228);
+  border-radius: 8px;
+  margin: 5rem 3rem 3rem 3rem;
+  height: 10rem;
+  width: 18rem;
+}
+
+.box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon > span {
+  margin-left: 5px;
+}
+
+.box-three > p {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box-3 {
+  width: 45rem;
+  height: 35rem;
+  border-radius: 7px;
+  margin-top: 2rem;
+}
+
+.box-3 > img {
+  width: 45rem;
+  height: 35rem;
+  border-radius: 7px;
 }
 
 /* Contact Section Starts Here */
@@ -94,8 +189,6 @@ navbar {
 .container {
   width: 100vw;
   height: 88.5vh;
-  background-color: #40e1ed;
-  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 }
 
 .section {
@@ -299,7 +392,7 @@ form > textarea {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 2rem;
-  background-color: #40e1ed;
+  background-color: #fff;
   background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 }
 
@@ -322,7 +415,7 @@ form > textarea {
 }
 
 .h1-serv {
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 footer {
@@ -337,44 +430,119 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 426px) {
   body {
     overflow-x: hidden;
+    min-height: 100vh;
   }
-
   /* HOME SECTION STARTS */
-
   .home {
-    overflow-x: hidden;
-    margin-top: 0;
+    width: 20rem;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160rem;
+  }
+
+  .sec-one {
+    display: flex;
+    height: 54rem;
+    width: 16rem;
+    margin: 1rem;
     flex-direction: column;
-    height: 52rem;
   }
 
-  .home > img {
-    width: 100vw;
+  .sec-two {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88rem;
+    width: 16rem;
+  }
+
+  .box-one {
+    width: 16rem;
     height: 22rem;
-    margin-top: -2rem;
-    margin-left: 0.5rem;
-    mask-image: none;
+    text-align: center;
+    margin: 0 auto 1rem auto;
   }
 
-  .text-home {
-    margin-top: 2rem;
-    width: 100vw;
-    height: 30rem;
+  .box-one > img {
+    width: 18rem;
+    height: 22rem;
   }
 
-  .h1-home {
+  .box-one- {
+    width: 16rem;
+    height: 31rem;
+    text-align: center;
+    margin: 0 auto 0rem auto;
+  }
+
+  .box-one- > img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .box-one- > h1 {
     color: black;
-    line-height: 3rem;
-    margin-left: 2rem;
-    font-size: 2rem;
   }
 
-  .h1-home2 {
-    width: 100vw;
-    margin-left: 2rem;
-    font-size: 2rem;
+  .box-two {
+    flex-direction: column;
+    height: 61rem;
+    width: 15rem;
   }
 
+  .rows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 15rem;
+    margin: 0;
+  }
+
+  .cols {
+    height: 13rem;
+    width: 15rem;
+  }
+
+  .cont-three {
+    flex-direction: column;
+    width: 20rem;
+  }
+
+  .box-3 {
+    width: 16rem;
+    height: 21rem;
+    margin: 1rem;
+  }
+
+  .box-3 > img {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 7px;
+  }
+
+  .sec-three {
+    height: 42rem;
+    width: 20rem;
+  }
+
+  .box-three {
+    margin: 1rem 0 0 0;
+    width: 14rem;
+    height: 11rem;
+  }
+
+  .app-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures that the container takes up at least the full viewport height */
+  }
+
+  footer {
+    margin-top: auto;
+  }
   /* NAVBAR AND ABOUT SECTION STARTS */
   nav {
     display: none;
@@ -394,7 +562,7 @@ footer {
 
   .container-abt {
     width: 100vw;
-    height: 60rem;
+    height: 70rem;
     display: flex;
     background: #fff;
   }
@@ -434,9 +602,10 @@ footer {
   /* SERVICES STARTS HERE */
 
   .container-services {
-    width: 85vw;
+    width: 80vw;
     height: 142rem;
     margin: 0;
+    overflow-x: hidden;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(15, 1fr);
   }
@@ -456,8 +625,7 @@ footer {
   /* 
   CONATCT SECTION STARTS HERE */
 
-  .container-cont {
-    height: 65rem;
+  .container {
     margin-top: -1rem;
   }
 
@@ -493,6 +661,22 @@ footer {
 
   /* FORM SECTION */
 
+  .container-cont {
+    height: 60rem;
+  }
+
+  .slogan {
+    font-size: 2.2rem;
+  }
+
+  .slogan-res {
+    width: 20rem;
+  }
+
+  .sec-right {
+    margin-left: 3rem;
+  }
+
   .cont-form {
     width: 100vw;
     display: flex;
@@ -509,15 +693,19 @@ footer {
   }
 
   form > input {
-    width: 20rem;
+    width: 16rem;
   }
 
   form > textarea {
-    width: 20rem;
+    width: 16rem;
   }
 
   .text {
-    width: 20rem;
+    width: 19rem;
+  }
+
+  .container-faq {
+    margin-bottom: 5rem;
   }
 
   footer {
@@ -526,39 +714,123 @@ footer {
   }
 }
 
-@media screen and (min-width: 427px) and (max-width: 768px) {
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  /* HOME CSS STARTS */
+
   .home {
-    overflow-x: hidden;
-    margin-top: 0;
+    width: 35rem;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160rem;
+  }
+
+  .sec-one {
+    display: flex;
+    height: 42rem;
+    width: 35rem;
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: column;
-    height: 52rem;
+    justify-content: center;
+    align-items: center;
   }
 
-  .home > img {
-    width: 80vw;
+  .sec-two {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 70rem;
+    width: 35rem;
+  }
+
+  .box-one {
+    width: 30rem;
     height: 22rem;
-    margin-top: 2rem;
-    margin-left: 4.5rem;
-    mask-image: none;
+    text-align: center;
+    margin: 0 auto 1rem auto;
   }
 
-  .text-home {
-    margin-top: 2rem;
-    width: 100vw;
-    height: 30rem;
+  .box-one > img {
+    width: 30rem;
+    height: 22rem;
   }
 
-  .h1-home {
+  .box-one- {
+    width: 35rem;
+    height: 31rem;
+    text-align: center;
+    margin: 0 auto 0rem auto;
+  }
+
+  .box-one- > img {
+    width: 30rem;
+    height: 18rem;
+  }
+
+  .box-one- > h1 {
     color: black;
-    line-height: 3rem;
-    margin-left: 2rem;
-    font-size: 2rem;
+    width: 35rem;
   }
 
-  .h1-home2 {
-    width: 100vw;
-    margin-left: 2rem;
-    font-size: 2rem;
+  .box-two {
+    flex-direction: column;
+    height: 36rem;
+    width: 35rem;
+  }
+
+  .rows {
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 35rem;
+    margin: 0;
+  }
+
+  .cols {
+    height: 14rem;
+    width: 15rem;
+  }
+
+  .cont-three {
+    flex-direction: column;
+    width: 35rem;
+  }
+
+  .box-3 {
+    width: 35rem;
+    height: 25rem;
+    margin: 1rem;
+  }
+
+  .box-3 > img {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 7px;
+  }
+
+  .sec-three {
+    height: 42rem;
+    width: 35rem;
+  }
+
+  .box-three {
+    margin: 1rem 0 0 0;
+    width: 30rem;
+    height: 11rem;
+  }
+
+  .app-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures that the container takes up at least the full viewport height */
+  }
+
+  footer {
+    margin-top: auto;
   }
 
   /* ABOUT & NAV */
@@ -709,27 +981,108 @@ footer {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  /* HOME SECTION STARTS FROM HERE */
+
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  .app-container {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures that the container takes up at least the full viewport height */
+  }
+
   .home {
+    flex: 1;
+  }
+
+  .app-container {
+    overflow-x: hidden;
+  }
+
+  .box-one {
+    width: 30rem;
+  }
+
+  .box-one > img {
+    width: 30rem;
+  }
+
+  .box-one- {
+    text-align: center;
+  }
+
+  .box-one- > h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .sec-two {
+    display: flex;
+    flex-direction: column;
+    height: 80rem;
+  }
+
+  .box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+  }
+  .box-3 {
+    width: 95vw;
+    height: 30rem;
+  }
+  .box-3 > img {
+    width: 60rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sec-three {
+    height: 20rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+
+  /* ABOUT SECTION */
+  .container-abt {
     height: 50rem;
   }
 
-  .section {
-    height: 45rem;
-  }
+  /* SERVICES CONTAINER */
 
   .container-services {
     height: 50rem;
   }
 
+  /* CONTACT SECTION */
+
   .container-cont {
-    height: 50rem;
+    height: 60rem;
   }
 
+  .section {
+    height: 55rem;
+  }
+
+  .sub-section {
+    height: 55rem;
+  }
+  .sec-left {
+    height: 55rem;
+  }
   .sec-right {
-    margin-top: 13rem;
+    height: 45rem;
+    justify-content: none;
   }
-
   /* FORM SECTION */
 
   .cont-form {
@@ -751,5 +1104,85 @@ footer {
   .text > h1 {
     margin-top: 2rem;
     font-size: 2rem;
+  }
+  footer {
+    margin-top: auto;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* SERVICES SECTION */
+
+  .container-services {
+    height: 60rem;
+  }
+
+  /* CONTACT SECTION */
+
+  .container {
+    height: 50rem;
+  }
+
+  .sub-section {
+    height: 55rem;
+  }
+
+  .sec-left {
+    height: 45rem;
+  }
+
+  .sec-right {
+    height: 36rem;
+  }
+
+  /* FORM CSS STARTS */
+
+  .container {
+    height: 55rem;
+  }
+
+  .form-container {
+    margin-top: 5rem;
+  }
+
+  /* FAQ SECTION */
+
+  .container-faq {
+    height: 70rem;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .box-one {
+    width: 70rem;
+  }
+
+  .box-one- {
+    width: 70rem;
+    text-align: center;
+  }
+
+  .box-one- > h1 {
+    color: black;
+  }
+
+  .box-two {
+    width: 80rem;
+  }
+
+  .box-3 {
+    width: 70rem;
+  }
+
+  .rows {
+    width: 40rem;
+  }
+
+  .cols {
+    height: 17rem;
+  }
+
+  .box-3 > img {
+    width: 55rem;
   }
 }
