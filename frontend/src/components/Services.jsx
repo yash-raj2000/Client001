@@ -16,7 +16,7 @@ function Services() {
         <div className="boxes flex">
           COMPANY INCORPORATION <br />
           <p style={{ margin: "0", fontSize: "20px" }}>
-            LLP/PARTNERSHIP FIRM/NGO/TRUET
+            LLP/PARTNERSHIP FIRM/NGO/TRUST
           </p>
         </div>
         <div className="boxes">PAN / TAN</div>
@@ -28,6 +28,7 @@ function Services() {
         <div className="boxes">BOOK KEEPING</div>
         <div className="boxes">LOAN APPLY</div>
         <div className="boxes">MSME / UDYOG AADHAR</div>
+        <div className="boxes">FSSAI LICENCE</div>
       </div>
       <Footer />
     </div>

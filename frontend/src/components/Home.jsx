@@ -86,7 +86,7 @@ function Home() {
                     }}
                   />
                 </div>
-                <h1>Seamlless Integration </h1>
+                <h1>Seamless Integration </h1>
                 <p>
                   We make the process much easier for you making the filing
                   process quick and efficient.
