@@ -1063,6 +1063,11 @@ footer {
     height: 50rem;
   }
 
+  .boxes {
+    height: 8rem;
+    text-align: center;
+  }
+
   /* CONTACT SECTION */
 
   .container-cont {
