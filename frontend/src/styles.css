@@ -366,8 +366,23 @@ form > textarea {
 
 .text {
   width: 25vw;
-  height: 60vh;
-  margin: 4rem auto auto auto;
+  height: 100vh;
+  margin: 2rem auto auto auto;
+}
+
+.QR {
+  height: 20rem;
+  width: 20rem;
+}
+
+.QR > img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.UPI {
+  width: 20rem;
+  height: 2rem;
 }
 
 .container-faq {
@@ -701,7 +716,23 @@ footer {
   }
 
   .text {
-    width: 19rem;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .QR {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .QR > img {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .UPI {
+    margin-bottom: 5rem;
   }
 
   .container-faq {

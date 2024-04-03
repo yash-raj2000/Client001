@@ -88,12 +88,25 @@ function GetInTouch() {
             </button>
           </form>
         </div>
+
         <div className="text">
           <h1 style={{ color: "black" }}>
-            Navigate Taxes with Ease, Achieve Financial Peace!
-            <br />
-            Hit <em>Send</em> and lets's start working together.
+            <strong> For Payments:</strong>
+            <p>Scan this QR</p>
           </h1>
+
+          <div className="QR">
+            <img src={require("../images/QR.jpeg")} alt="PHONE PE QR CODE" />
+          </div>
+          <div className="UPI">
+            <h3 style={{ fontFamily: "sans-serif" }}>
+              <strong>
+                <em style={{ color: "blue" }}>UPI ID: </em>
+              </strong>
+              anandrazz11@ibl
+            </h3>
+            <hr />
+          </div>
         </div>
       </div>
     </>
