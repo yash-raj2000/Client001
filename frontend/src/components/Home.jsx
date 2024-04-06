@@ -8,11 +8,13 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 import BeenhereIcon from "@mui/icons-material/Beenhere";
+import AD from "./AD";
 
 function Home() {
   return (
     <div className="app-container">
       <Navbar />
+      <AD />
       <div className="home">
         <div className="sec-one">
           <div className="box-one">

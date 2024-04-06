@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: skyblue;
 }
 
 nav {
@@ -59,6 +60,44 @@ navbar {
 }
 
 /* home section css */
+
+/* AD */
+
+.ad-box {
+  width: 250px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 96, 96);
+  animation-name: inlineMovement;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes inlineMovement {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: o;
+    left: 1200px;
+  }
+}
+
+.ad-box > h2 {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
 
 .home {
   width: 100vw;
@@ -448,6 +487,39 @@ footer {
     min-height: 100vh;
   }
   /* HOME SECTION STARTS */
+  .ad-box {
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 96, 96);
+    animation-name: inlineMovement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes inlineMovement {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: o;
+      left: 230px;
+    }
+  }
+
+  .ad-box > h2 {
+    font-size: 15px;
+  }
+
   .home {
     width: 20rem;
     flex: 1;
@@ -747,6 +819,38 @@ footer {
 
 @media screen and (min-width: 427px) and (max-width: 769px) {
   /* HOME CSS STARTS */
+  .ad-box {
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 96, 96);
+    animation-name: inlineMovement;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes inlineMovement {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: o;
+      left: 600px;
+    }
+  }
+
+  .ad-box > h2 {
+    font-size: 15px;
+  }
 
   .home {
     width: 35rem;
@@ -1014,6 +1118,38 @@ footer {
 
 @media screen and (min-width: 770px) and (max-width: 1024px) {
   /* HOME SECTION STARTS FROM HERE */
+  .ad-box {
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 96, 96);
+    animation-name: inlineMovement;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+  @keyframes inlineMovement {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: o;
+      left: 860px;
+    }
+  }
+
+  .ad-box > h2 {
+    font-size: 15px;
+  }
 
   body {
     overflow-x: hidden;
@@ -1147,6 +1283,17 @@ footer {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* AD SECTION HOME */
+  @keyframes inlineMovement {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: o;
+      left: 1150px;
+    }
+  }
   /* SERVICES SECTION */
 
   .container-services {
@@ -1189,6 +1336,18 @@ footer {
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
+  /* AD SECTION HOME */
+  @keyframes inlineMovement {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: o;
+      left: 1230px;
+    }
+  }
+
   .box-one {
     width: 70rem;
   }
