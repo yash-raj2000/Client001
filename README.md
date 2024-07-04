@@ -1,6 +1,6 @@
 # Website For A Company Secretary
 
-![Website Screenshot](https://drive.google.com/file/d/1cN-6eNNzp1A753-6crkledjMn-zF_l7H/view)
+![Website Screenshot](https://drive.google.com/file/d/1cN-6eNNzp1A753-6crkledjMn-zF_l7H/view?usp=sharing)
 
 ## Overview
 
